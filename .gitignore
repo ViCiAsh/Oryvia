@@ -1,15 +1,31 @@
-*.iml
-.gradle
+# Gradle and build output
+.gradle/
+build/
+/captures
+.externalNativeBuild
+.cxx
+
+# Kotlin compiler session files (created by Kotlin 2.x)
+.kotlin/
+
+# Machine-specific files
 /local.properties
+*.iml
+.DS_Store
+
+# Android Studio
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+
+# Signing keys, never publish these
+*.jks
+*.keystore
+keystore.properties
+
+# Built apps (attach them to a GitHub Release instead)
+*.apk
+*.aab
