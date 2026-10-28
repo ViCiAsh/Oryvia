@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "island"
+rootProject.name = "Oryvia"
 include(":app")
